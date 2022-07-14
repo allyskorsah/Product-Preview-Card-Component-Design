@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+}
+
+
+.container{
+    display: flex;
+    width: 650px;
+    height: 400px;
+    margin: 100px auto;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.item{
+    flex-basis: 100%;
+}
+
+
+section:nth-of-type(1){
+    background-image:url(./images/image-product-desktop.jpg);
+    background-color: grey;
+    background-repeat: no-repeat;
+    background-size: 325px 400px;
+}
+
+
+section:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 40px;
+    background-color: hsl(0, 100%, 100%);
+}
+
+section p:nth-of-type(1){
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.3em;  
+}
+
+section p:nth-of-type(2){
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: xx-large;
+    
+}
+
+section p:nth-of-type(3){
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    line-height: 1.5em;
+}
+
+section p:nth-of-type(4) span{
+    color: hsl(158, 36%, 37%);
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: x-large;
+}
+
+section p:nth-of-type(4) strike{
+    color: hsl(228, 12%, 48%);
+    margin-left: 20px;
+}
+
+section p:nth-of-type(5) img{
+    margin-right:10px ;
+}
+
+button{
+    background-color: hsl(158, 36%, 37%);
+    color: hsl(0, 100%, 100%);
+    width: 100%;
+    border-radius:10px ;
+    padding: 15px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    border: 0;
+}
+
+footer {
+    text-align: center;
+    color: hsl(228, 12%, 48%);
+    font-family: 'Fraunces', serif;
+    font-size: large;
+}
+
+@media (max-width:480px){
+    .container{
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        width: 450px;
+        height: 800px;
+    }
+
+    section:nth-of-type(1){
+        background-image: url(./images/image-product-mobile.jpg);
+        background-size:100% 100% ;
+    }
+}
