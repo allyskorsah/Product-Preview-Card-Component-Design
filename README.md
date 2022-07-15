@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [@allyskorsah](https://www.frontendmentor.io/solutions/product-preview-card-component-design-MNC7n1T3wJ)
+- Live Site URL: [allyskorsah.github.io](https://allyskorsah.github.io/Product-Preview-Card-Component-Design/)
 
 ## My process
 
@@ -48,5 +48,5 @@ For this project I learned about using an image as a background and what goes in
 
 ## Author
 
-- Website - [allyskorsah.github.io](https://allyskorsah.github.io/Product Preview Card Component/)
+- Website - [allyskorsah.github.io](https://allyskorsah.github.io/Product-Preview-Card-Component-Design/)
 - Frontend Mentor - [@allyskorsah](https://www.frontendmentor.io/profile/allyskorsah)

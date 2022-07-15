@@ -66,9 +66,10 @@ section p:nth-of-type(4) span{
     font-size: x-large;
 }
 
-section p:nth-of-type(4) strike{
+section p:nth-of-type(4) sup{
     color: hsl(228, 12%, 48%);
     margin-left: 20px;
+    text-decoration-line: line-through;
 }
 
 section p:nth-of-type(5) img{
